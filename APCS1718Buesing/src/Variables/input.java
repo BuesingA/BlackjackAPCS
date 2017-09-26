@@ -34,7 +34,7 @@ public class input
 		floatOne = keyboard.nextFloat();
 		
 		System.out.println("Enter a Float :: ");
-		floatOne = keyboard.nextFloat();
+		floatTwo = keyboard.nextFloat();
 		
 		System.out.println("Enter a short :: ");
 		shortOne = keyboard.nextShort();
@@ -55,4 +55,4 @@ public class input
 		System.out.println("short two = " + shortTwo );
 }
 }
-}
+
