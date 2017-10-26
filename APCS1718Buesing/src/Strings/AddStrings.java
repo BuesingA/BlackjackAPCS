@@ -9,6 +9,7 @@ public class AddStrings
 
    public AddStrings()
    {
+	   
    }
 
    public AddStrings(String one, String two)
@@ -17,15 +18,19 @@ public class AddStrings
 
    public void setStrings(String one, String two)
    {
+	   one = first;
+	   two = last;
+	   
    }
 
  	public void add( )
  	{
+ 		sum = first + last;
 	}
 
  	public String toString()
  	{
- 		String output="";
+ 		String output="First:: " + first + "Last:: " + last + "Sum::" + sum;
  		return output;
 	}
 }
