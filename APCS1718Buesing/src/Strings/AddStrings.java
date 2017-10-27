@@ -14,6 +14,7 @@ public class AddStrings
 
    public AddStrings(String one, String two)
    {
+	   setStrings(one, two);
    }
 
    public void setStrings(String one, String two)
