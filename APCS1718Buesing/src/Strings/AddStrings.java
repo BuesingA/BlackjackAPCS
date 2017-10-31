@@ -19,19 +19,19 @@ public class AddStrings
 
    public void setStrings(String one, String two)
    {
-	   one = first;
-	   two = last;
+	   first = one;
+	   last = two;
 	   
    }
 
  	public void add( )
  	{
- 		sum = first + last;
+ 		sum = first + " " + last;
 	}
 
  	public String toString()
  	{
- 		String output="First:: " + first + "Last:: " + last + "Sum::" + sum;
+ 		String output="First:: " + first + " Last:: " + last + " Sum::" + sum;
  		return output;
 	}
 }
