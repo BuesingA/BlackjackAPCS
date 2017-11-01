@@ -8,6 +8,7 @@ public class FirstAndLast
 
 	public FirstAndLast(String s)
 	{
+		setString(s);
 	}
 
 	public void setString(String s)

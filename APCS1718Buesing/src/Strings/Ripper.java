@@ -6,25 +6,27 @@ public class Ripper
 {
 	private String word;
 	
-	public StringRipper()
+	public Ripper()
 	{
 	}
 
-	public StringRipper(String s)
+	public Ripper(String s)
 	{
+		setString(s);
 	}
 	
    public void setString(String s)
    {
+	   word = s;
    }	
 
 	public String ripString(int x, int y)
 	{
-		return "";
+		return word.substring(x, y);
 	}
 
  	public String toString()
  	{
- 		return "\n\n";
+ 		return "\n\n" + word;
 	}
 }
