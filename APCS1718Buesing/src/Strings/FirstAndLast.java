@@ -17,7 +17,7 @@ public class FirstAndLast
 
 	public String getFirst()
 	{
-		return String.valueOf(s.charAt(0));
+		return String.valueOf(word.charAt(0));
 	}
 	
 	public String getLast()
