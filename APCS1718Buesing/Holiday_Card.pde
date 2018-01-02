@@ -1,14 +1,27 @@
+
+SnowFlake[] snowflakes = new SnowFlake[10];
+
+background sky = new background();
+
 void setup()
 {
-size(600,600);
+ 
+  for(int i=0; i<snowflakes.length; i++){
+    snowflakes[i] = new SnowFlake();
+  }
+
+  size(600,600);
 
 }
 
 void draw()
 {
-  
-  background sky = new background();
-  sky.drawground();
-  SnowFlake mySnow = new SnowFlake();
-  mySnow.display(); 
+ sky.drawground();
+  for (int i = 0; i < snowflakes.length; i++) {
+    snowflakes[i].display();
+  }
+  //try {
+  //  Thread.sleep(200L);
+  //} catch (Exception e) {
+  //}
 }
