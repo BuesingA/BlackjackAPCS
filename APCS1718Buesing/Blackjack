@@ -1,13 +1,27 @@
 void setup(){
   size(600,600);
   background(200);
-  rect(30, 20, 155, 55, 3, 6, 12, 18);
+  
+ rect(30, 20, 155, 55, 3, 6, 12, 18);
   textSize(22);
   fill(145,0,0);
-text("Blackjack", 60, 50); 
+text("Blackjack", 60, 50);
 
+rect(30, 475, 155, 55, 3, 6, 12, 18);
+ textSize(22);
+  fill(0);
+text("Hit", 60, 505);
+
+rect(30, 420, 155, 55, 3, 6, 12, 18); 
+textSize(22);
+fill(145);
+text("Stay", 50, 450);
+fill(200);
  }
  
  void draw(){
+  
+  
+  
 
  }
