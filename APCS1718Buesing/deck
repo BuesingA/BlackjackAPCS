@@ -1,0 +1,66 @@
+ class deck
+{
+
+private ArrayList <card> MainDeck = new ArrayList<card>();
+
+  
+  public deck()
+  {
+  MainDeck.add(new card(1));
+  MainDeck.add(new card(1));
+  MainDeck.add(new card(1));
+  MainDeck.add(new card(1));
+  MainDeck.add(new card(2));
+  MainDeck.add(new card(2));
+  MainDeck.add(new card(2));
+  MainDeck.add(new card(2));
+  MainDeck.add(new card(3));
+  MainDeck.add(new card(3));
+  MainDeck.add(new card(3));
+  MainDeck.add(new card(3));
+  MainDeck.add(new card(4));
+  MainDeck.add(new card(4));
+  MainDeck.add(new card(4));
+  MainDeck.add(new card(4));
+  MainDeck.add(new card(5));
+  MainDeck.add(new card(5));
+  MainDeck.add(new card(5));
+  MainDeck.add(new card(5));
+  MainDeck.add(new card(6));
+  MainDeck.add(new card(6));
+  MainDeck.add(new card(6));
+  MainDeck.add(new card(6));
+  MainDeck.add(new card(7));
+  MainDeck.add(new card(7));
+  MainDeck.add(new card(7));
+  MainDeck.add(new card(7));
+  MainDeck.add(new card(8));
+  MainDeck.add(new card(8));
+  MainDeck.add(new card(8));
+  MainDeck.add(new card(8));
+  MainDeck.add(new card(9));
+  MainDeck.add(new card(9));
+  MainDeck.add(new card(9));
+  MainDeck.add(new card(9));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  MainDeck.add(new card(10));
+  
+  
+  }
+
+
+}
