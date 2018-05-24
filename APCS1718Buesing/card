@@ -1,0 +1,14 @@
+public class card
+
+{
+private int number;
+public card(int num)
+{
+  number = num;
+}
+
+public int getnumber()
+{
+  return number;
+}
+}
