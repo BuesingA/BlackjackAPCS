@@ -1,0 +1,25 @@
+public class game
+{
+  private int n = 52
+  private card allepo;
+  private ArrayList<card> gameDeck, player, dealer;
+  public game(ArrayList<card> a)
+  {
+   gameDeck = a;
+  }
+  
+  public void dealCards()
+  {
+    for (int i = 0; i<2; i++)
+    allepo = (int)(Math.random()*n);
+    dealer.add(gameDeck.get(allepo));
+    gameDeck.remove(allepo);
+    n--;
+    allepo = (int)(Math.random()*n);
+    player.add(gameDeck.get(allepo));
+    gameDeck.remove(allepo);
+    n--;
+  }
+  
+    
+}
