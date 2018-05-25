@@ -25,3 +25,21 @@ fill(200);
   
 
  }
+void mouseClicked(){
+   
+   if(mouseY>450 && mouseY<500){
+     if(mouseX>30 && mouseX<185){
+       textSize(22);
+       text("You stayed",500,500);
+    //stay
+     }
+   }
+   if(mouseY>450 && mouseY<500){
+     if(mouseX>30 && mouseX<185){
+       textS
+       text("Anotha card", 500,500);
+    //hit
+     }
+   }
+ 
+ }
