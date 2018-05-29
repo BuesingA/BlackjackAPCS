@@ -2,13 +2,19 @@ public class card
 
 {
 private int number;
-public card(int num)
+private PImage image;
+public card(int num, PImage p)
 {
   number = num;
+  image=p;
 }
 
 public int getnumber()
 {
   return number;
+}
+public PImage getImage()
+{
+  return image;
 }
 }
