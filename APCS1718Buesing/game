@@ -1,6 +1,8 @@
+
 public class game
 {
   private int n = 52;
+
   private int allepo;
   private ArrayList<card> gameDeck, player, dealer;
   public game(ArrayList<card> a)
@@ -22,6 +24,34 @@ public class game
     n--;
     }
   }
-  
-    
+ public void addCard() {
+ allepo = (int)(Math.random()*n);
+    player.add(gameDeck.get(allepo));
+   gameDeck.remove(allepo);
+    n--;}
+public int getDealer()
+{
+ int total = 0; 
+for (int m = 0; m<dealer.size();m++)
+total+=total+dealer.get(m).getnumber();
+if (total > 21)
+total = 0;
+return total;
+}
+
+public int getPlayer()
+{
+ int Total = 0; 
+for (int m = 0; m<player.size();m++)
+Total+=Total+dealer.get(m).getnumber();
+if (Total > 21)
+Total = 0;
+return Total;
+}
+
+public boolean getresults(){
+  if(getplayer()>getDealer())
+  return true;
+  else return false;
+}
 }
