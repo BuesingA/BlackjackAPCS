@@ -11,80 +11,87 @@ PImage ace;
  
  
  
- class deck
+public class deck
 {
+{
+{
+// ace = loadImage("Ace of Spades.jpg");
+// two = loadImage("2 of spades.png");
+// three = loadImage("3 of spades.png");
+// four = loadImage("4 spades.png");
+// five = loadImage("5 of spades.jpg");
+// six = loadImage("6 of spades.jpg");
+// seven = loadImage("7 of spades.jpg");
+// eight = loadImage("8 of spades.jpg");
+// nine = loadImage("9 of spades.png");
+// ten = loadImage("jack of spades.jpg");
+}
+//private ArrayList <card> MainDeck = new ArrayList<card>();
+}
+  private ArrayList <card> MainDeck = new ArrayList<card>();
 
-  ace = loadImage("Ace of Spades.jpg");
- two = loadImage("2 of spades.png");
- three = loadImage("3 of spades.png");
- four = loadImage("4 spades.png");
- five = loadImage("5 of spades.jpg");
- six = loadImage("6 of spades.jpg");
- seven = loadImage("7 of spades.jpg");
- eight = loadImage("8 of spades.jpg");
- nine = loadImage("9 of spades.png");
- ten = loadImage("jack of spades.jpg");
-  
-private ArrayList <card> MainDeck = new ArrayList<card>();
-
-  
-  public deck()
+    public deck()
   {
-  MainDeck.add(new card(1, ace));
-  MainDeck.add(new card(1, ace));
-  MainDeck.add(new card(1, ace));
-  MainDeck.add(new card(1, ace));
-  MainDeck.add(new card(2, two));
-  MainDeck.add(new card(2, two));
-  MainDeck.add(new card(2, two));
-  MainDeck.add(new card(2, two));
-  MainDeck.add(new card(3, three));
-  MainDeck.add(new card(3, three));
-  MainDeck.add(new card(3, three));
-  MainDeck.add(new card(3, three));
-  MainDeck.add(new card(4, four));
-  MainDeck.add(new card(4, four));
-  MainDeck.add(new card(4, four));
-  MainDeck.add(new card(4, four));
-  MainDeck.add(new card(5, five));
-  MainDeck.add(new card(5, five));
-  MainDeck.add(new card(5, five));
-  MainDeck.add(new card(5, five));
-  MainDeck.add(new card(6, six));
-  MainDeck.add(new card(6, six));
-  MainDeck.add(new card(6, six));
-  MainDeck.add(new card(6, six));
-  MainDeck.add(new card(7, seven));
-  MainDeck.add(new card(7, seven));
-  MainDeck.add(new card(7, seven));
-  MainDeck.add(new card(7, seven));
-  MainDeck.add(new card(8, eight));
-  MainDeck.add(new card(8, eight));
-  MainDeck.add(new card(8, eight));
-  MainDeck.add(new card(8, eight));
-  MainDeck.add(new card(9, nine));
-  MainDeck.add(new card(9, nine));
-  MainDeck.add(new card(9, nine));
-  MainDeck.add(new card(9, nine));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  MainDeck.add(new card(10, ten));
-  
+  MainDeck.add(new card(1, "ace"));
+  MainDeck.add(new card(1, "ace"));
+  MainDeck.add(new card(1, "ace"));
+  MainDeck.add(new card(1, "ace"));
+  MainDeck.add(new card(2, "two"));
+  MainDeck.add(new card(2, "two"));
+  MainDeck.add(new card(2, "two"));
+  MainDeck.add(new card(2, "two"));
+  MainDeck.add(new card(3, "three"));
+  MainDeck.add(new card(3, "three"));
+  MainDeck.add(new card(3, "three"));
+  MainDeck.add(new card(3, "three"));
+  MainDeck.add(new card(4, "four"));
+  MainDeck.add(new card(4, "four"));
+  MainDeck.add(new card(4, "four"));
+  MainDeck.add(new card(4, "four"));
+  MainDeck.add(new card(5, "five"));
+  MainDeck.add(new card(5, "five"));
+  MainDeck.add(new card(5, "five"));
+  MainDeck.add(new card(5, "five"));
+  MainDeck.add(new card(6, "six"));
+  MainDeck.add(new card(6, "six"));
+  MainDeck.add(new card(6, "six"));
+  MainDeck.add(new card(6, "six"));
+  MainDeck.add(new card(7, "seven"));
+  MainDeck.add(new card(7, "seven"));
+  MainDeck.add(new card(7, "seven"));
+  MainDeck.add(new card(7, "seven"));
+  MainDeck.add(new card(8, "eight"));
+  MainDeck.add(new card(8, "eight"));
+  MainDeck.add(new card(8, "eight"));
+  MainDeck.add(new card(8, "eight"));
+  MainDeck.add(new card(9, "nine"));
+  MainDeck.add(new card(9, "nine"));
+  MainDeck.add(new card(9, "nine"));
+  MainDeck.add(new card(9, "nine"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
+  MainDeck.add(new card(10, "ten"));
   
   }
+  
+  public ArrayList<card> getDeck()
+  {
+    return MainDeck;
+  }
+}
 
-}
-}
+
+
