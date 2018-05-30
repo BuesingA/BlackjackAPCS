@@ -1,13 +1,17 @@
 
 public class game
 {
-  private int n = 52;
+ private int n = 52;
 
   private int allepo;
-  private ArrayList<card> gameDeck, player, dealer;
+  private ArrayList<card> gameDeck;
+ private ArrayList<card> player = new ArrayList<card>();
+ private ArrayList<card> dealer = new ArrayList<card>();
   public game(ArrayList<card> a)
   {
    gameDeck = a;
+   dealCards();
+   
   }
   
   public void dealCards()
@@ -37,21 +41,4 @@ total+=total+dealer.get(m).getnumber();
 if (total > 21)
 total = 0;
 return total;
-}
-
-public int getPlayer()
-{
- int Total = 0; 
-for (int m = 0; m<player.size();m++)
-Total+=Total+dealer.get(m).getnumber();
-if (Total > 21)
-Total = 0;
-return Total;
-}
-
-public boolean getresults(){
-  if(getplayer()>getDealer())
-  return true;
-  else return false;
-}
 }
