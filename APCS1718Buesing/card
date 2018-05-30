@@ -2,19 +2,19 @@ public class card
 
 {
 private int number;
-private PImage image;
-public card(int num, PImage p)
+private String type;
+public card(int num, String p)
 {
   number = num;
-  image=p;
+  type=p;
 }
 
 public int getnumber()
 {
   return number;
 }
-public PImage getImage()
+public String getType()
 {
-  return image;
+  return type;
 }
 }
