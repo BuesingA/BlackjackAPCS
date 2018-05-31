@@ -1,3 +1,5 @@
+deck a = new deck();
+  game b = new game(a.getDeck());
 void setup(){
   size(600,600);
   background(32);
@@ -17,35 +19,40 @@ textSize(22);
 fill(145);
 text("Stay", 50, 450);
 fill(200);
+
+  
+text(b.getPlayerDeck().get(0).getType(), 400,400);
+    
+text(b.getPlayerDeck().get(1).getType(), 500,400);
+    
  }
  
  void draw(){
-  deck a = new deck();
-  game b = new game(a.getDeck());
-  for(int i=0; i<2; i++)
-  {
-    int x=0;
-    text(b.getPlayerDeck().get(i).getType(), 400+x,400);
-    x+=25;
-  }
+ 
   
 
  
  }
 void mouseClicked(){
+  
+ 
    
    if(mouseY>450 && mouseY<500){
      if(mouseX>30 && mouseX<185){
        textSize(12);
        text("You stayed",400,500);
-    //stay
+    
+    
      }
    }
+   int w = 2;
    if(mouseY>500 && mouseY<550){
      if(mouseX>30 && mouseX<185){
-       textSize(12);
-       text("Anotha card", 500,500);
-    //hit
+       textSize(18);
+        b.addCard();
+        text(b.getPlayerDeck().get(w).getType(), 400,480);
+        w++;
+  
     
      }
    }
